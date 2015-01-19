@@ -12,5 +12,5 @@ Package: com.ihelp101.voiceminus
 
 # AutoVoice/AutoWear Example (Recognized)     
 Event Behavior: Checked      
-Command Filter: Send Text Message To (?<name>.+) Saying (?<message>.+)     
+Command Filter: "Send Text Message To (?<name>.+) Saying (?<message>.+)"     
 Use Regex: Checked     
