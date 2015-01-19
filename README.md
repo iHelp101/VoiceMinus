@@ -1,7 +1,8 @@
 # VoiceMinus
-Send SMS via Google Voice with Android Wear
 
 ### Huge thanks to VoicePlus from Cyanogenmod for the Google Voice authorization and token code. ###
+
+Send SMS via Google Voice with Android Wear
 
 This is a simple way to get Google Voice SMS working with Android Wear. You need AutoWear and Tasker to get the spoken text from the Android Wear device and act on it.
 
