@@ -6,11 +6,10 @@ This is a simple way to get Google Voice SMS working with Android Wear. You need
 
 # Tasker Intent Example    
     Action: com.ihelp101.voiceminus.Voice.START      
-    Extra: name:%name (Variable from AutoVoice/AutoWear)      
-    Extra: message:%message (Another variable from AutoVoice/AutoWear)     
+    Extra: name:%name (Variable from AutoVoice/AutoWear)
     Package: com.ihelp101.voiceminus      
 
 # AutoVoice/AutoWear Example (Recognized)     
     Event Behavior: Checked      
-    Command Filter: Send Text Message To (?<name>.+) Saying (?<message>.+)   
+    Command Filter: Send Text Message To (?<name>.+)
     Use Regex: Checked     
