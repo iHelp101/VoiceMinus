@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <receiver android:name=".SMS">
             <intent-filter>
                 <action android:name= "com.ihelp101.voiceminus.Voice.START">
@@ -28,6 +29,13 @@
                 </action>
             </intent-filter>
         </receiver>
+
+        <receiver android:name=".ReplyActivity">
+            <intent-filter>
+                <action android:name="com.ihelp101.rewarditup.Voice.ACTION_EXAMPLE" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>

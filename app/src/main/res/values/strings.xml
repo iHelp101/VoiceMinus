@@ -4,5 +4,5 @@
     <string name="app_name">VoiceMinus</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="example_reply_action_clicked">Example reply action clicked</string>
 </resources>
