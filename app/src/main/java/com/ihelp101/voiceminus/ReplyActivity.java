@@ -9,7 +9,7 @@ import android.support.v4.app.RemoteInput;
 
 public class ReplyActivity extends BroadcastReceiver {
     public static final String ACTION_EXAMPLE =
-            "com.ihelp101.rewarditup.Voice.ACTION_EXAMPLE";
+            "com.ihelp101.voiceminus.Voice.ACTION_EXAMPLE";
 
     private boolean mEnableMessages = true;
 
@@ -29,7 +29,7 @@ public class ReplyActivity extends BroadcastReceiver {
                     nMgr.cancel(69);
 
                     Intent i = new Intent();
-                    i.setAction("com.ihelp101.rewarditup.Voice.START");
+                    i.setAction("com.ihelp101.voiceminus.Voice.START");
                     i.putExtra("name", SMS.name);
                     i.putExtra("msg", replyMessage.toString());
                     context.sendBroadcast(i);

@@ -32,7 +32,7 @@
 
         <receiver android:name=".ReplyActivity">
             <intent-filter>
-                <action android:name="com.ihelp101.rewarditup.Voice.ACTION_EXAMPLE" />
+                <action android:name="com.ihelp101.voiceminus.Voice.ACTION_EXAMPLE" />
             </intent-filter>
         </receiver>
 
